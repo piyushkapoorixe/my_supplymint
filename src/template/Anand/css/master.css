@@ -1,0 +1,403 @@
+.Rectangle-5 {
+  background-color: #fdfdfd;
+  box-shadow: 0 3px 9px 0 rgba(195, 195, 195, 0.5);
+}
+
+.hamburger {
+  width: 25px;
+  height: 23px;
+  object-fit: contain;
+}
+
+
+.search{
+  width: 61px;
+  height: 18px
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #4a4a4a;
+  color: var(--greyish-brown);
+}
+
+.Group {
+  width: 15px;
+  height: 15px;
+  object-fit: contain;
+}
+
+.SEARCH {
+  width: 61px;
+  height: 18px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #4a4a4a;
+  color: var(--greyish-brown);
+}
+
+.bell {
+  width: 25px;
+  height: 31px;
+  object-fit: contain;
+}
+
+.profile {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.KRITIKA-SINGH {
+  width: 108px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+  color: var(--greyish-brown);
+}
+
+.Fill-213 {
+  object-fit: contain;
+  background-color: #c5c5c5;
+  background-color: var(--pinkish-grey);
+}
+
+.Rectangle-12 {
+  background-color: #f6f6f6;
+  margin-top: -20px;
+  padding: 20px 50px 20px 50px;
+}
+
+.Home {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4a4a4a;
+  color: var(--greyish-brown);
+}
+
+
+.oval{
+  float: right;
+  position: relative;
+}
+
+.btn{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #6d6dc9;
+
+
+}
+.Rectangle-13 {
+  border-radius: 9px;
+  box-shadow: 2px 2px 6px 1px rgba(229, 229, 229, 0.5);
+  background-color: #ffffff;
+  border: solid 1px #e5e5e5;
+  border: solid 1px var(--white);
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  margin-top: 20px;
+
+}
+
+.MASTER-V-MART {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #6d6dc9;
+  color: var(--iris);
+}
+.text-style-1 {
+  color: #4a4a4a;
+  color: var(--greyish-brown);
+}
+
+.path {
+  width: 15px;
+  height: 12.5px;
+  color: #ffffff;
+}
+
+.Manage-Master-Data {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #8b8b8b;
+  color: var(--warm-grey);
+}
+
+.add {
+  object-fit: contain;
+  margin-top: -20px;
+  padding-right: 20px;
+}
+
+
+.Choose-Master {
+  width: 91px;
+  height: 15px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+  color: var(--greyish-brown);
+}
+
+.MRP_CONTRIBUTION {
+  width: 131px;
+  height: 15px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+  color: var(--greyish-brown);
+}
+
+.MRP-text{
+  color:#6d6dc9;
+}
+
+.card {
+  width: 241px;
+  height: 30.7px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: solid 1px #e5e5e5;
+  padding-left: 10px;
+
+}
+
+.dropdown-toggle{
+  float: right;
+}
+.Export-Data {
+  width: 72px;
+  height: 15px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #8b8b8b;
+  color: var(--warm-grey);
+}
+
+.CSV {
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: solid 1px #e5e5e5;
+}
+
+.XLS {
+  width: 58px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: solid 1px #e5e5e5;
+}
+
+.FILTER {
+  border-radius: 4px;
+  background-color: #6d6dc9;
+  border: solid 1px #3b3b98;
+  border: solid 1px var(--blueberry);
+}
+
+.filter2 {
+  width: 16px;
+  height: 15px;
+  object-fit: contain;
+}
+
+.filter {
+  width: 53.8px;
+  height: 14px;
+  font-family: Montserrat;
+  font-size: 11px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+
+}
+
+.button-text {
+  width: 23.9px;
+  height: 14px;
+  font-family: Montserrat;
+  font-size: 11px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #8b8b8b;
+  color: var(--warm-grey);
+}
+
+.search-bar{
+  float: right;
+}
+
+.Line-5 {
+  width: 386.7px;
+  height: 30.4px;
+  border: solid 1px #e5e5e5;
+}
+
+.search {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+.table{
+  padding-top: 30px;
+
+}
+
+table tbody tr:hover{
+  background-color: #6d6dc9;
+  color: #8b8b8b;
+  background-color: var(--iris);
+  cursor: pointer;
+
+}
+
+
+.EDIT {
+  width: 51px;
+  height: 27px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: solid 1px #8b8b8b;
+}
+
+.DELETE {
+  width: 70px;
+  height: 27px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: solid 1px #d0021b;
+}
+
+.SAVE {
+  width: 51px;
+  height: 27px;
+  border-radius: 4px;
+  background-color: #6d6dc9;
+  border: solid 1px #3b3b98;
+  border: solid 1px var(--blueberry);
+}
+
+.button-text1 {
+  width: 30px;
+  height: 14px;
+  font-family: Montserrat;
+  font-size: 11px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.head-text {
+  width: 156.6px;
+  height: 15px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4a4a4a;
+  color: var(--greyish-brown);
+}
+
+.selectpicker {
+  width: 85.3px;
+  height: 30.7px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: solid 1px #e5e5e5;
+}
+
+.PRIVACY-POLICY-TER {
+  width: 179px;
+  height: 13px;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #6c6c6c;
+}
+
+.copyright{
+  float: right;
+  position: relative;
+  width: 145px;
+  height: 13px;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #6c6c6c;
+}

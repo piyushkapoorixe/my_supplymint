@@ -1,0 +1,45 @@
+@import "base";
+@import "~bootstrap/scss/bootstrap.scss";
+@import "./sample";
+@import "./headerSidebar";
+@import "./vendor";
+@import "./vendor_manage";
+@import "./rightSideBar";
+@import "./signIn";
+@import "./item";
+@import "./homeDashboard";
+@import "./dashboard";
+
+html {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  outline: none;
+  user-select: none;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+button {
+  outline: none !important;
+}
+input:focus {
+  outline: none;
+}
+input:focus {
+  border: solid 1px #6d6dc9 !important;
+  border: solid 1px var(--iris);
+}
+select:focus {
+  border: solid 1px #6d6dc9 !important;
+  border: solid 1px var(--iris);
+}
+textarea:focus {
+  border: solid 1px #6d6dc9 !important;
+  border: solid 1px var(--iris);
+}

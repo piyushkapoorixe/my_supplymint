@@ -1,0 +1,354 @@
+.noise_background{
+    background-image: url(../imgs/rectangle-noise@3x.jpg);
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+}
+.left_side_container{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: inline-block;
+    background: #f9f9f9;
+}
+.top_container{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    margin-top: 10px;
+}
+.back_home{
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    text-align: center;
+    color: #6d6dc9;
+}
+.condi_text{
+    width: 80%;
+    text-align: center;
+    padding: 5px;
+    color: #7a7a7a;
+    font-size: 12px;
+    font-weight: 500;
+}
+.middle_container{
+    display: inline-block;
+    width: 100%;
+    height: 80%;
+    margin: auto;
+    text-align: left;
+    /* height: auto; */
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 25px;
+    background: #f9f9f9;
+    position: relative;
+    left: 35px;
+    border: 2px solid #6d6dc9;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    border-right: 10px solid #6d6dc9;
+    z-index: 1;
+    border-top-right-radius: 25px;
+
+}
+.oval{
+    position: absolute;
+    float: right;
+    right: -25px;
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+.oval1{
+    top: -70px;
+}
+.oval_icon{
+    position: absolute;
+    top: 15px;
+    font-size: 20px !important;
+}
+.bottom_container{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    height: auto;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #fff;
+}
+.signin{
+    width: 100%;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 13px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    color: #6d6dc9;
+}
+.middle_container>div>ul>li{
+    width: 100%;
+}
+
+.input_box{
+    width: 80%;
+    height: 35px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    border: solid 1px #e2e2e2;  
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    /* color: #bfbfbf; */
+    text-indent: 5px;
+}
+.forgot_pass{
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    text-align: right;
+    color: #c0c0c0;
+    width: 80%;
+    margin-top: 5px;
+}
+.signin_btn{
+    border-radius: 9px;
+    background: #6d6dc9;
+    box-shadow: 0 5px 20px -6px #33025d;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #ffffff;
+    width: 50%;
+    margin-left: 40px;
+    height: 35px;
+}
+.bottom_position{
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: -20px;
+
+}
+.bottom_position>ul :nth-child(1) p{
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #c0c0c0;
+    margin: 0px;
+}
+.bottom_position>ul :nth-child(2) p{
+    font-family: Montserrat;
+    font-size: 9px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: #a1a1a1;
+}
+.right_side_container{
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+    opacity: 0.9;
+    object-fit: contain;
+    background-image: -webkit-linear-gradient(#6d6dc9, #3b3b98);
+    background-image: -moz-linear-gradient(#6d6dc9, #3b3b98);
+    background-image: -o-linear-gradient(#6d6dc9, #3b3b98);
+    background-image: linear-gradient(#6d6dc9, #3b3b98);
+}
+.back_icon{
+    height: 20px;
+    width: 20px;
+
+}
+.mint_logo{
+    height: 35px;
+    width: 100%;
+    margin-top: 25px;
+}
+.supply_mint_logo_div{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+}
+.supply_mint_logo{
+    width: 35%;
+    height: 80px;
+    /* position: relative;
+    left: 325px; */
+    margin: auto;
+    border-radius: 14px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
+    border: solid 1px #9b9b9b;
+}
+.path_img{
+    margin: auto;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+}
+.content_sigin{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    padding: 20px;
+    padding-top: 0px;
+}
+.content_sigin>ul :nth-child(1) p{
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #ffffff;
+}
+.content_sigin>ul :nth-child(2) p{
+    opacity: 0.61;
+    font-family: Montserrat;
+    font-size: 9px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+.forgot_pass_text{
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #c0c0c0;
+    margin-top: 5px;
+    text-align: left;
+    width: 70%;
+    margin-left: 25px;
+}
+.change_email{
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #6d6dc9;
+    background-color: #fff;
+    border: none;
+}
+.wrng_id{
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4a4a4a;
+    width: 40%;
+    text-align: left;
+    float: left;
+}
+.reset_text{
+    color: #4a4a4a;
+    font-family: Montserrat;
+    font-size: 9px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    text-align: left;
+    width: 70%;
+    margin-top: 5px;
+}
+.exclamation_icon{
+    width: 100%;
+    height: auto;
+}
+.exclamation_mark{
+    height: 30px;
+    width: 30px;
+
+}
+.flow_diagram_div{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    /* padding: 10px; */
+    text-align: center;
+}
+.illustration_img{
+    width: 100%;
+    /* margin-left: 15px; */
+}
+.email_fatch{
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #d2d2d2;
+  margin-top: 50px;
+}
+.fatch_list{
+    height: 25%;
+}
+.exclamation_img{
+    height: 20px;
+    width: 20px;
+    margin-top: 7px;
+    float: left;
+}
+.m-top-5{
+    margin-top: 5px;
+}
+
+.link-forgotPassword{
+    color: #c0c0c0 !important;
+}

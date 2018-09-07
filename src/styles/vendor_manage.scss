@@ -1,0 +1,651 @@
+/*_____________________________________ VENDOR PAGE CSS START___________________________ */
+
+.container_div {
+  width: 100%;
+  height: auto;
+}
+.menu_path {
+  width: 100%;
+  height: auto;
+}
+.home_link {
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4a4a4a;
+}
+.container_content {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #fff;
+  border: solid 1px #e5e5e5;
+  box-shadow: 0 0px 9px 0 rgba(195, 195, 195, 0.5);
+}
+.contribution_mart {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4a4a4a;
+}
+.contribution_mart > span {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #6d6dc9;
+}
+.master_para {
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #9b9b9b;
+  margin: 0px;
+}
+.list_style {
+  padding: 0px;
+  list-style: none;
+}
+.select_master {
+  width: 100%;
+  height: auto;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4a4a4a;
+}
+.select_box {
+  height: 20px;
+  width: 160px;
+  outline: none;
+  border: 1px solid #9b9b9b;
+  color: #4a4a4a;
+  background-color: #fff;
+  font-size: 10px;
+  font-family: Montserrat;
+}
+.export_data_div {
+  width: 100%;
+  height: auto;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #9b9b9b;
+}
+.button_home {
+  background-color: #fff;
+  color: #4a4a4a;
+  font-size: 10px;
+  height: 25px;
+  width: 45px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #dcdcdc;
+}
+.button_home:hover{
+  background-color: #6d6dc9;
+  color: #fff;
+  border: 1px solid #6d6dc9;
+  transition: 0.5s;
+}
+.table_vendor> thead > tr > th > label {
+  font-size: 10px;
+  font-weight: 600;
+  font-family: Montserrat;
+  color: #4a4a4a;
+  text-align: left;
+}
+.table_vendor > tbody > tr > td > label {
+  font-size: 9px;
+  font-weight: 500;
+  font-family: Montserrat;
+  color: #8b8b8b;
+  text-align: left;
+}
+.table_vendor > thead {
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+}
+.table_vendor > tbody > tr > td:nth-child(1) {
+  border: 1px solid #ddd;
+  border-left: none;
+}
+.table_vendor > tbody > tr > td:nth-child(2) {
+  border: 1px solid #ddd;
+  border-left: none;
+}
+.table_vendor > tbody > tr > td:nth-child(3) {
+  border: 1px solid #ddd;
+  border-left: none;
+}
+.table_vendor > tbody > tr > td:nth-child(4) {
+  border: 1px solid #ddd;
+  border-left: none;
+}
+.table_vendor > thead > tr > th {
+  border-bottom: none !important;
+}
+.table_vendor > tbody > tr > td {
+  border: 1px solid #ddd;
+}
+
+.table_vendor > tbody > tr:nth-child(even) {
+  background: #fff;
+}
+.table_vendor > tbody > tr:nth-child(odd) {
+  background: #f4f4fd;
+}
+.table_vendor>tbody>tr :last-child{
+border-right: none !important;
+}
+.edit_button {
+  font-family: Montserrat;
+  text-align: center;
+  padding: 4px;
+  color: #9b9b9b;
+  font-size: 10px;
+  border-radius: 5px;
+  background: #fff;
+  height: 25px;
+  width: 45px;
+  outline: none;
+  border: 1px solid #8b8b8b;
+}
+.delete_button {
+  font-family: Montserrat;
+  text-align: center;
+  padding: 4px;
+  color: #ff0000;
+  font-size: 10px;
+  border-radius: 5px;
+  background: #fff;
+  height: 25px;
+  width: 65px;
+  outline: none;
+  border: 1px solid #ff0000;
+}
+.filter_button {
+  font-family: Montserrat;
+  text-align: left;
+  padding: 4px;
+  color: #fff;
+  font-size: 10px;
+  border-radius: 5px;
+  background: #6d6dc9;
+  height: 25px;
+  width: 70px;
+  outline: none;
+  border: 1px solid #6d6dc9;
+}
+.save_button {
+  font-family: Montserrat;
+  text-align: center;
+  padding: 4px;
+  color: #fff;
+  font-size: 10px;
+  border-radius: 5px;
+  background: #6d6dc9;
+  height: 25px;
+  width: 45px;
+  outline: none;
+  border: 1px solid #6d6dc9;
+}
+.search_list {
+  width: 100%;
+  text-align: right;
+  margin-top: 40px;
+}
+.circle_list {
+  text-align: right;
+  width: 100%;
+}
+.circle {
+  border: 1px solid #6d6dc9;
+  opacity: 1 !important;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  position: relative !important;
+  margin: 10px;
+  display: inline-block;
+  background-color: #6d6dc9;
+  cursor: pointer;
+  z-index: 0 !important;
+}
+.circle.plus:before,
+.circle.plus:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.circle.plus:before {
+  width: 2px;
+  height: 12px;
+  margin: auto;
+  background-color: #fff;
+}
+.circle.plus:after {
+  width: 12px;
+  height: 2px;
+  margin: auto;
+  background-color: #fff;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 170px;
+  background-color: #e9e9e9;
+  color: #4a4a4a;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  right: 30px;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 900;
+  padding: 5px;
+}
+.tooltiptext > li > span {
+  font-size: 10px;
+  color: #4a4a4a;
+  font-family: Montserrat;
+  font-weight: 600;
+  text-align: left;
+}
+.tooltiptext > li > p {
+  font-size: 8px;
+  color: #9b9b9b;
+  font-family: Montserrat;
+  font-weight: 300;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.search_bar {
+  border: none;
+  color: #9b9b9b;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 300;
+  outline: none;
+  width: 135px;
+  padding-right: 40px;
+}
+.search_bar:hover,
+.search_bar:active,
+.search_bar:focus {
+  border-bottom: 1px solid #ddd !important;
+  border-right: none !important;
+  border-top: none !important;
+  border-left: none !important;
+  width: 170px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  outline: none;
+}
+.copyright {
+  width: 100%;
+  height: auto;
+  text-align: right;
+}
+.search_img {
+  width: 10px;
+  height: 10px;
+  position: relative;
+  right: 38px;
+}
+.filter_control {
+  position: relative;
+  right: 30px;
+  top: 2px;
+  height: 10px;
+  width: 15px;
+}
+.right_sidemenu {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+/*__________________________________VENDOR PART 1 CSS ______________________________  */
+.detail_label {
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+}
+.container_box {
+  width: 100%;
+  height: auto;
+}
+.container_box > ul > li {
+  padding-right: 15px !important;
+}
+.vendor_select_box {
+  height: 30px;
+  width: 175px;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4a4a4a;
+  outline: none;
+  background: #fff;
+  text-indent: 5px;
+  border-radius: 5px;
+  border: 1px solid #d2d2d2;
+}
+.vendor_input_box {
+  height: 30px;
+  width: 175px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: solid 1px #d2d2d2;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  // color: #9b9b9b;
+  outline: none;
+  text-indent: 5px;
+}
+.text_area_vendor {
+  height: 15vh;
+  width: 370px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: solid 1px #d2d2d2;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  // color: #9b9b9b;
+  outline: none;
+  // text-indent: 5px;
+  padding: 10px;
+  resize: none;
+  opacity: 0.6;
+}
+.container_content1 {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #fff;
+  border: solid 1px #e5e5e5;
+  box-shadow: 0 0px 9px 0 rgba(195, 195, 195, 0.5);
+}
+.list_margin > ul > li {
+  padding-right: 15px !important;
+}
+
+/*______________________________VENDOR PART2 _____________________  */
+.procurement_label {
+  font-family: Montserrat;
+  font-size: 11px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+}
+.clear_button_vendor {
+  width: 41px;
+  height: 18px;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+  outline: none;
+  border: none;
+  background: transparent;
+}
+.save_button_vendor {
+  width: 100px;
+  height: 25px;
+  border-radius: 21.8px;
+  background-color: #6d6dc9;
+  border: #6d6dc9;
+  color: #fff;
+  outline: none;
+  font-size: 10px;
+  font-family: Montserrat;
+}
+
+/*_____________________________MODAL CSS START_____________________________  */
+.filter_modal {
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+}
+.filter_text {
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #6d6dc9;
+}
+.modal{
+  display: block !important;
+}
+.fade{
+  opacity: 1 !important;
+}
+.modal-backdrop.show {
+    opacity: 0.6 !important;
+    background: #fff !important; 
+}
+.modal-content {
+  height: 35vh;
+  width: 100%;
+  padding: 15px;
+  border-radius: 0px;
+  position: absolute !important;
+  bottom: 0 !important;
+  display: block !important;
+}
+.modal_clear_btn {
+  width: 90px;
+  height: 18px;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+  outline: none;
+  border: none;
+}
+.modal_Apply_btn {
+  width: 100px;
+  height: 20px;
+  border-radius: 21.8px;
+  background-color: #6d6dc9;
+  border: #6d6dc9;
+  color: #fff;
+  outline: none;
+  font-size: 10px;
+  font-family: Montserrat;
+}
+.modal_btn {
+  width: 150px;
+  height: 30px;
+  border-radius: 25px;
+  outline: none;
+  background: #ccc;
+  color: #4a4a4a;
+  font-size: 10px;
+  font-family: Montserrat;
+}
+.close {
+  position: relative;
+  top: -26px;
+  left: -65px;
+  border: 1px solid #6d6dc9 !important;
+  background: #6d6dc9 !important;
+  border-radius: 30px;
+  height: 25px;
+  width: 25px;
+  opacity: 1 !important;
+  outline: none;
+}
+.close > span {
+  text-shadow: none !important;
+  font-weight: 300 !important;
+  position: relative;
+  top: -2px;
+}
+.close_btn {
+  position: relative;
+  left: -26px;
+  top: 1px;
+  font-size: 15px;
+}
+/*____________________________________RECORD CSS START_____________________________  */
+.records_div {
+  width: 100%;
+  height: auto;
+}
+.record_list {
+  width: 100%;
+  padding: 0px;
+  text-align: center;
+  list-style: none;
+}
+.record_notification {
+  font-family: Montserrat;
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+}
+.record_para {
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #9b9b9b;
+}
+.record_btn {
+  width: 120px;
+  height: 25px;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 21.8px;
+  background-color: #6d6dc9;
+  border: solid 1.7px #6d6dc9;
+}
+.height-70vh {
+  min-height: 70vh;
+  height: auto;
+}
+.m-top-50 {
+  margin-top: 50px;
+}
+.error {
+  font-family: Montserrat;
+  font-size: 9px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #c44569;
+  width: 100%;
+  display: block;
+  margin-top: 4px;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+.pad-lft-0{
+  padding-left: 0px;
+}

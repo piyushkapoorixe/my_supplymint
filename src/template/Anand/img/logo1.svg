@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="169" height="41" viewBox="0 0 169 41">
+    <g fill="none" fill-rule="evenodd">
+        <text font-family="Montserrat-Regular, Montserrat" font-size="20">
+            <tspan x="36.681" y="22.634" fill="#696969">SUPPLY</tspan> <tspan x="115.841" y="22.634" fill="#6D6DC9">MINT</tspan>
+        </text>
+        <text fill="#9B9B9B" font-family="Montserrat-Light, Montserrat" font-size="10" font-weight="300">
+            <tspan x="50" y="39">A turningcloud initiative</tspan>
+        </text>
+        <g fill-rule="nonzero">
+            <path fill="#D2D2D2" d="M3.367 20H0c0 5.5 4.5 10 10 10v-3.367A6.952 6.952 0 0 1 3.367 20z"/>
+            <rect width="6.667" height="6.667" x="11.667" fill="#D2D2D2" rx="3.333"/>
+            <rect width="6.667" height="6.667" x="11.667" y="23.333" fill="#D2D2D2" rx="3.333"/>
+            <rect width="6.667" height="6.667" x="23.333" y="11.667" fill="#D2D2D2" rx="3.333"/>
+            <rect width="6.667" height="6.667" y="11.667" fill="#D2D2D2" rx="3.333"/>
+            <path fill="#6D6DC9" d="M0 10h3.367C3.533 6.4 6.433 3.533 10 3.367V0C4.5 0 0 4.5 0 10z"/>
+            <path fill="#D2D2D2" d="M20 0v3.367c3.6.166 6.467 3.066 6.633 6.633H30c0-5.5-4.5-10-10-10z"/>
+            <path fill="#6D6DC9" d="M20 26.633V30c5.5 0 10-4.5 10-10h-3.367A6.952 6.952 0 0 1 20 26.633z"/>
+        </g>
+    </g>
+</svg>

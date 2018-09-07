@@ -1,0 +1,269 @@
+.container_div {
+  width: 100%;
+  height: auto;
+}
+.menu_path {
+  width: 100%;
+  height: auto;
+}
+.home_link {
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4a4a4a;
+}
+.container_content {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #fff;
+  border: solid 1px #e5e5e5;
+  box-shadow: 0 0px 9px 0 rgba(195, 195, 195, 0.5);
+}
+.contribution_mart {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4a4a4a;
+}
+.contribution_mart > span {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #6d6dc9;
+}
+.master_para {
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #9b9b9b;
+  margin: 0px;
+}
+.list_style {
+  padding: 0px;
+  list-style: none;
+}
+.select_master {
+  width: 100%;
+  height: auto;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4a4a4a;
+}
+.select_box {
+  height: 20px;
+  width: 160px;
+  outline: none;
+  border: 1px solid #9b9b9b;
+  color: #4a4a4a;
+  background-color: #fff;
+  font-size: 10px;
+  font-family: Montserrat;
+}
+.export_data_div {
+  width: 100%;
+  height: auto;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #9b9b9b;
+}
+.button_home {
+  background-color: #fff;
+  color: #4a4a4a;
+  font-size: 10px;
+  height: 25px;
+  width: 45px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #dcdcdc;
+}
+// .ta
+.edit_button {
+  font-family: Montserrat;
+  text-align: center;
+  padding: 4px;
+  color: #9b9b9b;
+  font-size: 10px;
+  border-radius: 5px;
+  background: #fff;
+  height: 25px;
+  width: 45px;
+  outline: none;
+  border: 1px solid #8b8b8b;
+}
+.delete_button {
+  font-family: Montserrat;
+  text-align: center;
+  padding: 4px;
+  color: #ff0000;
+  font-size: 10px;
+  border-radius: 5px;
+  background: #fff;
+  height: 25px;
+  width: 65px;
+  outline: none;
+  border: 1px solid #ff0000;
+}
+.filter_button {
+  font-family: Montserrat;
+  text-align: left;
+  padding: 4px;
+  color: #fff;
+  font-size: 10px;
+  border-radius: 5px;
+  background: #6d6dc9;
+  height: 25px;
+  width: 70px;
+  outline: none;
+  border: 1px solid #6d6dc9;
+}
+.save_button {
+  font-family: Montserrat;
+  text-align: center;
+  padding: 4px;
+  color: #fff;
+  font-size: 10px;
+  border-radius: 5px;
+  background: #6d6dc9;
+  height: 25px;
+  width: 45px;
+  outline: none;
+  border: 1px solid #6d6dc9;
+}
+.search_list {
+  width: 100%;
+  text-align: right;
+  margin-top: 45px;
+}
+.circle_list {
+  text-align: right;
+  width: 100%;
+}
+.circle {
+  border: 1px solid #6d6dc9;
+  opacity: 1 !important;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  position: relative !important;
+  margin: 10px;
+  display: inline-block;
+  background-color: #6d6dc9;
+  cursor: pointer;
+  z-index: 0 !important;
+}
+.circle.plus:before,
+.circle.plus:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.circle.plus:before {
+  width: 2px;
+  height: 12px;
+  margin: auto;
+  background-color: #fff;
+}
+.circle.plus:after {
+  width: 12px;
+  height: 2px;
+  margin: auto;
+  background-color: #fff;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 170px;
+  background-color: #e9e9e9;
+  color: #4a4a4a;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  right: 30px;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 900;
+  padding: 5px;
+}
+.tooltiptext > span {
+  font-size: 8px;
+  color: #9b9b9b;
+  font-family: Montserrat;
+  font-weight: 300;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.search_bar {
+  border: none;
+  color: #9b9b9b;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 300;
+  outline: none;
+  width: 135px;
+}
+.search_bar:hover,
+.search_bar:active,
+.search_bar:focus {
+  border-bottom: 1px solid #ddd;
+  width: 170px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+.copyright {
+  width: 100%;
+  height: auto;
+  text-align: right;
+}
+.search_img {
+  width: 10px;
+  height: 10px;
+  position: relative;
+  right: 38px;
+}
+.filter_control {
+  position: relative;
+  right: 30px;
+  top: 2px;
+  height: 10px;
+  width: 15px;
+}
+.right_sidemenu {
+  width: 25px;
+  height: 25px;
+}
